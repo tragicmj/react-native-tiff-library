@@ -13,5 +13,7 @@
 import TiffLibrary from 'react-native-tiff-library';
 
 // TODO: What to do with the module?
-TiffLibrary;
+TiffLibrary.tiffToPng('base 64 tiff image', (base64Result) => {
+  // Result is base 64 PNG image. Only the first image of tiff file is converted.
+});
 ```
