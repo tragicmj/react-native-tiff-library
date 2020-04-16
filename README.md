@@ -8,6 +8,16 @@
 
 `$ react-native link react-native-tiff-library`
 
+### Add manually
+
+Add the following dependency into you `package.json` file under "dependencies":
+
+```{json}
+"dependencies": {
+    "react-native-tiff-library": "git+https://github.com/aantonello/react-native-tiff-library.git"
+}
+```
+
 ## Usage
 ```javascript
 import TiffLibrary from 'react-native-tiff-library';
