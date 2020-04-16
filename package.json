@@ -1,5 +1,5 @@
 {
-  "name": "react-native-tiff-library",
+  "name": "@aleantonello/react-native-tiff-library",
   "title": "React Native Tiff Library",
   "version": "1.0.0",
   "description": "Convert a TIFF image format to PNG or JPEG",
@@ -17,13 +17,9 @@
     "TIFF",
     "images"
   ],
-  "author": {
-    "name": "Alessandro Antonello",
-    "email": "antonello.ale@gmail.com"
-  },
+  "author": "Alessandro Antonello <aleantonello@hotmail.com>",
   "license": "MIT",
   "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "^16.8.1",
     "react-native": ">=0.60.0-rc.0 <1.0.x"
@@ -31,5 +27,9 @@
   "devDependencies": {
     "react": "^16.9.0",
     "react-native": "^0.60.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/aantonello/react-native-tiff-library/issues"
+  },
+  "homepage": "https://github.com/aantonello/react-native-tiff-library#readme"
 }

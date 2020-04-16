@@ -63,7 +63,7 @@ public class TiffLibraryModule extends ReactContextBaseJavaModule {
         private Callback m_callback;
 
         public TiffToPngHandler(Callback callback) {
-            m_callback = callback
+            m_callback = callback;
         }
 
         public void convert(String srcFile, String destFile) {
